@@ -3,7 +3,8 @@
 from Tkinter import *
 
 def show_entry_fields():
-   #print("First Name: %s\nLast Name: %s" % (e1.get(), e2.get()))
+    master = Tk()
+    #print("First Name: %s\nLast Name: %s" % (e1.get(), e2.get()))
     currect = float(e1.get())
     weight = float(e2.get())
     #msg = Message(master, text = "Test")
